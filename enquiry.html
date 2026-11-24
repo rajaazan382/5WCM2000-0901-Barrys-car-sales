@@ -28,9 +28,9 @@
     <p>Fields marked in red are important.</p>
 
     <form action="#" method="post">
-        <div>
+        <div class="important">
             <label for="car">Vehicle</label>
-            <select id="car" name="car">
+            <select id="car" name="car" required>
                 <option value="">Choose a vehicle</option>
                 <option>2019 Hatch 1.0</option>
                 <option>2020 Trail 1.5</option>
@@ -39,19 +39,19 @@
             </select>
         </div>
 
-        <div>
+        <div class="important">
             <label for="name">Full name</label>
-            <input type="text" id="name" name="name" placeholder="e.g. Dave Smith">
+            <input type="text" id="name" name="name" placeholder="e.g. Dave Smith" required>
         </div>
 
-        <div>
+        <div class="important">
             <label for="email">Email address</label>
-            <input type="text" id="email" name="email">
+            <input type="text" id="email" name="email" required>
         </div>
 
         <div>
             <label for="phone">Telephone</label>
-            <input type="text" id="phone" name="phone">
+            <input type="text" id="phone" name="phone" required>
         </div>
 
         <div>

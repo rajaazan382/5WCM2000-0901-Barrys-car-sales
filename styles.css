@@ -75,3 +75,13 @@ footer {
     margin: auto;
     font-size: 12px;
 }
+ .important label {
+    color: red;
+    font-weight: bold;
+ 
+
+.important input,
+.important select,
+.important textarea {
+    border: 12px solid red;
+ }
