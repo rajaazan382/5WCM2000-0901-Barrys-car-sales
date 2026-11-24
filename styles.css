@@ -22,7 +22,13 @@ nav a {
     color: white;
     margin-right: 15px;
 }
-
+nav a.active {
+    background-color:black;
+    color:white;
+    padding: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
 main {
     width: 900px;
     margin: 20px auto;
